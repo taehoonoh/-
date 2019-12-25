@@ -19,3 +19,6 @@ header .spot li:first-child:after {display: none;}
 header .spot li a{display: block; height: 81px; padding: 0 10px;
 line-height:81px;}
 header .spot li:last-child a {padding-left: 10px;}
+
+.visual{ padding:0 50px;}
+.visual .con .slide {background: url(/img/bg_main02.jpg) no-repeat center;}
