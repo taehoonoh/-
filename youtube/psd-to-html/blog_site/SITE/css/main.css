@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville:400i|Bentham|PT+Serif:400,400i&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    vertical-align: top;
+}
+
+/* Typography */
+/* font-family: 'Bentham', serif;
+font-family: 'Baskervville', serif;
+font-family: 'PT Serif', serif; 
+*/
+body{
+    font-size:18px;
+    font-family: 'PT Serif', serif;
+    color:#6f6f6f;
+    line-height: 34px;
+    text-align: left;
+    margin:0 auto;
+    border:1px solid black;
+}
+
+/* 블러..? 크기조정,백그라운드,문단 자르기,대문자변환*/
+/* Layout */
+body{width:1200px;
+}
+/* Header */
+header{
+    text-align: center;
+    background: url(/SITE/images/header_bg.jpg) no-repeat 50% 80%;
+    background-size:1200px 600px contain;
+    color: white;
+    
+    margin-bottom:110px;
+}
+h1{font-family: 'Baskervville', serif;
+font-size: 30px;
+border: 1px solid white;
+display: inline-block;
+text-align: center;
+margin:60px 0 140px 0;
+letter-spacing: 5px;
+text-align: center;
+text-transform: uppercase;
+padding:10px 20px;}
+
+header h2{font-family: 'Baskervville', serif;
+font-size: 66px;
+line-height: 72px;
+
+}
+header p{margin-top:30px;
+    padding-bottom: 180px;
+}
+
+/* Main content */
+.content h2{font-family: 'Bentham', serif;
+font-size:42px;
+margin-bottom: 25px;
+text-align: center;
+text-transform: uppercase;
+color: black;
+}
+.content h3{font-family: 'PT Serif', serif;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.content p{margin:55px auto;
+    width:640px;
+    word-break: break-all;}
+.content p span{color: red;}
+
+.content ul{text-align: center;
+    font-size: 0;
+}
+.content ul li{
+    display: inline-block;
+    border: 1px solid darkgray;
+    padding:20px 52px;
+    font-size:16px;
+    
+}
+.content ul li a{
+    text-decoration:none;
+    color:gray;
+}
+.content ul .sns:hover {
+    background:orangered;
+    color: white;
+}
+.content ul .sns:hover a{
+    color: white;
+}
+/* Footer */
+
+
+footer{background: darkgray;
+margin-top: 110px;}
+
+footer p{text-align: center;
+color: white;
+font-size: 18px;
+padding:30px 0 25px 0;}
