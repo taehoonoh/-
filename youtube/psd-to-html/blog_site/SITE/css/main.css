@@ -76,7 +76,7 @@ body{width:1200px;
 /* Header */
 header{
     text-align: center;
-    background: url(/SITE/images/header_bg.jpg) no-repeat 50% 80%;
+    background: url(../images/header_bg.jpg) no-repeat 50% 80%;
     background-size:1200px 600px contain;
     color: white;
     
