@@ -438,7 +438,7 @@ transform: translate(-50%,-50%);}
     .slider figcaption em {font-size: 18px;}
     .slider figcaption span {font-size: 14px;}
 
-    .square a{width: 39%;}
+    .square a{width: 49%;}
     .square a:nth-child(5){display: none;}
 }
 
